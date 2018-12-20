@@ -20,6 +20,3 @@ https://www.qt.io/
 
 - Discord RPC
 https://github.com/discordapp/discord-rpc
-
-## Feedback
-If you would like to provide feedback or suggest new icons, you can contact me on Twitter ([@N6T4_](https://twitter.com/n6t4_ "@N6T4_")).
