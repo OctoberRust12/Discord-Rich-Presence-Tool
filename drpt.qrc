@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>resources/Clapperboard.png</file>
+    <file>resources/Exit sign.png</file>
+    <file>resources/Controller.png</file>
+    <file>resources/Eating.png</file>
+    <file>resources/Laptop.png</file>
+    <file>resources/Nintendo Switch.png</file>
+    <file>resources/Piano.png</file>
+    <file>resources/PlayStation.png</file>
+    <file>resources/Programming.png</file>
+    <file>resources/Sleeping.png</file>
+    <file>resources/Speaker.png</file>
+    <file>resources/Tablet.png</file>
+    <file>resources/Trees.png</file>
+    <file>resources/TV.png</file>
+    <file>resources/Video editing.png</file>
+    <file>resources/Writing.png</file>
+    <file>resources/Xbox.png</file>
+  </qresource>
+  <qresource prefix="misc">
+    <file>resources/icon.png</file>
+    <file>resources/Unknown.png</file>
+  </qresource>
+</RCC>
