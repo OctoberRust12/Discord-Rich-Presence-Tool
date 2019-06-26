@@ -17,7 +17,7 @@ You can find the latest compiled releases here: https://github.com/Rarcoon/Disco
 
 ## Requirements (developers only)
 - Qt Open Source Edition
-https://www.qt.io/
+https://www.qt.io
 
 - Discord RPC
 https://github.com/discordapp/discord-rpc
