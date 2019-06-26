@@ -1,9 +1,9 @@
-#include "MainWin.h"
+#include "mainwin.h"
 
 #include <qdiriterator.h>
-#include "discord-rpc.h"
+#include "discord_rpc.h"
 
-const QString MainWin::appId = "396811586397929472";
+const QString MainWin::appId = "593277746285903914";
 const QString MainWin::commentId = "comment";
 const QString MainWin::iconPath = ":/icons/Resources/";
 const QString MainWin::miscPath = ":/misc/Resources/";
