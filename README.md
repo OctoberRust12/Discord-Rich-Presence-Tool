@@ -1,4 +1,5 @@
 # Discord Rich Presence Tool
+## NOTE: The current release (1.0.1) is broken due to the Discord developer account associated with it being deleted. I will look into releasing a fixed version soon!
 A C++/Qt program that lets you fill in your own custom Discord Rich Presence information for games and activities away from the PC.
 
 ### Notes
