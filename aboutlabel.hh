@@ -8,7 +8,7 @@ class AboutLabel : public ClickableLabel
 	Q_OBJECT
 
 public:
-    AboutLabel(QWidget *pParent);
+	AboutLabel(QWidget *pParent);
 
 	~AboutLabel();
 
@@ -17,9 +17,9 @@ public:
 	QString styleLeave;
 
 protected:
-    auto mousePressEvent(QMouseEvent *pEvent) -> void;
+	auto mousePressEvent(QMouseEvent *pEvent) -> void;
 
-    auto EventEnter(QEvent *pEvent) -> void;
+	auto EventEnter(QEvent *pEvent) -> void;
 
-    auto EventLeave(QEvent *pEvent) -> void;
+	auto EventLeave(QEvent *pEvent) -> void;
 };
