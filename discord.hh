@@ -14,8 +14,8 @@ struct RichPresence
 	int64_t timeEnd;		// End timestamp in epoch seconds (needs to be greater than start timestamp for remaining time).
 
 	/// Party.
-	int partySize;			// Number of players in the party.
-	int partyMax;			// Maximum number of players allowed in the party.
+	int32_t partySize;		// Number of players in the party.
+	int32_t partyMax;		// Maximum number of players allowed in the party.
 
 	/// Icons.
 	std::string smallKey;	// Small image key (used by Discord API to locate icon to use).

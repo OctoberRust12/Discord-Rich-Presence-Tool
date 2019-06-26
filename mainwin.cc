@@ -69,29 +69,29 @@ MainWin::MainWin(QWidget *pParent)
 	ui.comboIcon->setCurrentIndex(0);
 }
 
-void MainWin::FormatLargeLine()
+auto MainWin::FormatLargeLine() -> void
 {
 	ui.lineSmallText->setDisabled((ui.lineLargeText->text().length() > 0) ? true : false);
 }
 
-void MainWin::FormatSmallLine()
+auto MainWin::FormatSmallLine() -> void
 {
 	ui.lineLargeText->setDisabled((ui.lineSmallText->text().length() > 0) ? true : false);
 }
 
-void MainWin::FormatTimeRemain()
+auto MainWin::FormatTimeRemain() -> void
 {
 	ui.timeRemain->setEnabled((ui.checkElapsed->isChecked() && ui.checkElapsed->isEnabled()) ? true : false);
 }
 
-void MainWin::FormatTimeUpdate()
+auto MainWin::FormatTimeUpdate() -> void
 {
 	ui.checkElapsed->setDisabled((ui.checkPreserve->isChecked()) ? true : false);
 
 	FormatTimeRemain();
 }
 
-void MainWin::OpenAboutDialog()
+auto MainWin::OpenAboutDialog() -> void
 {
 	AboutDialog aboutDialog(this);
 
@@ -106,7 +106,7 @@ void MainWin::OpenAboutDialog()
 	aboutDialog.exec();
 }
 
-void MainWin::SetImageIcon()
+auto MainWin::SetImageIcon() -> void
 {
 	// NOTE: The icon count offset takes into account the additional "None" option.
 	if (ui.comboIcon->currentIndex() < ui.comboIcon->count())
@@ -138,7 +138,7 @@ void MainWin::SetImageIcon()
 	}
 }
 
-void MainWin::UpdatePresence()
+auto MainWin::UpdatePresence() -> void
 {
 	// State.
 	{

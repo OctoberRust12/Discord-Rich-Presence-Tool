@@ -11,7 +11,7 @@ Discord::~Discord()
 	Shutdown();
 }
 
-void Discord::Initialise(std::string appId)
+auto Discord::Initialise(std::string appId) -> void
 {
 	if (!bInitialised)
 	{
@@ -24,7 +24,7 @@ void Discord::Initialise(std::string appId)
 	}
 }
 
-bool Discord::UpdatePresence(RichPresence &richPresence)
+auto Discord::UpdatePresence(RichPresence &richPresence) -> bool
 {
 	if (bInitialised)
 	{
@@ -50,7 +50,7 @@ bool Discord::UpdatePresence(RichPresence &richPresence)
 	}
 }
 
-void Discord::Shutdown()
+auto Discord::Shutdown() -> void
 {
 	if (bInitialised)
 	{
