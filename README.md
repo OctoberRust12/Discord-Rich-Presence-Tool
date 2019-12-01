@@ -1,5 +1,4 @@
 # Discord Rich Presence Tool
-## NOTE: As of October 25th 2019, Discord now natively supports custom status messages, rendering this program redundant. Feel free to continue using this if you want to though!
 ## NOTE: A [hotfix (v1.0.2)](https://github.com/Rarcoon/Discord-Rich-Presence-Tool/releases/tag/v1.0.2) was released to fix v1.0.1 no longer working!
 A C++/Qt program that lets you fill in your own custom Discord Rich Presence information for games and activities away from the PC.
 
